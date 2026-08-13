@@ -1,73 +1,92 @@
-# RayoLog ⚡
+Cute Fluffy Bunny
+RayoLog ⚡🐰
+Ultra-fast, lightweight event-streaming broker written in pure Go.
+Faster than a rabbit on an energy drink. Zero JSON, zero garbage, pure speed.
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5pY29yb3Bzc2VkMXR1N2t3YnYxbzRzaWRvcm9iYms3cnBneCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lq0h93752f6J9tijrh/giphy.gif" alt="Fast Bunny" width="300" />
-</p>
+Choose your language / Выбери язык / Elige tu idioma 🐰:
 
-<p align="center">
-  <b>Ultra-fast, lightweight event-streaming broker written in Go.</b><br>
-  <i>Faster than a rabbit on an energy drink. 🐇⚡</i>
-</p>
+EnglishРусскийEspañol
 
-<p align="center">
-  <a href="#english">English</a> •
-  <a href="#russian">Русский</a>
-</p>
 
----
+🇬🇧 English
+Cute Nose Bunny
 
-<a name="english"></a>
-## 🇬🇧 English
+🧠 Engineering Overview
+RayoLog (Rayo — Spanish for Lightning) is a high-performance event-streaming log engine built from scratch in Go. It eschews heavy JSON serialization and complex queue management in favor of an Append-Only Log architecture with an In-Memory Byte Index, guaranteeing O(1) read and write time complexity.
 
-### Overview
+Designed by a developer who loves rabbits and hates unnecessary memory allocations.
 
-**RayoLog** (*Rayo* — Spanish for *Lightning*) is a high-performance event-streaming log engine built from scratch in Go. It eschews heavy JSON serialization and complex queue management in favor of an **Append-Only Log** architecture with an **In-Memory Byte Index**, guaranteeing $O(1)$ read and write time complexity.
+⚙️ Architecture & Deep Dives
+Append-Only Disk Engine: Sequential bin writes minimizing disk head movement and syscall overhead. No middlemen, just raw bytes.
+O(1) In-Memory Index: Sparse/dense byte offset mappings for instantaneous message lookups without disk scans. Memory footprint is strictly controlled.
+Zero-JSON Binary Protocol: Custom length-prefixed framing over TCP designed for minimal memory allocations (allocs/op). We don't parse JSON; we frame bytes.
+Thread-Safe Concurrency: Atomic state management and fine-grained sync.RWMutex locking. High-parallelism safety without global lock bottlenecks.
+📂 Project Layout
+Click to expand structure
+</details>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1aGNnYXZvOWs0bnM1dXlydWZ3dnpvbDJvNXhhcTZ6NWgxeW52dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Julianu5L62Iis323M/giphy.gif" alt="Hyperactive Bunny" width="280" />
-</p>
+🚀 Quick Start
+bash
 
-### Architecture & Engineering Highlights
-
-- **Append-Only Disk Engine:** Sequential bin writes minimizing disk head movement and filesystem overhead.
-- **$O(1)$ In-Memory Index:** Sparse/dense byte offset mappings for instantaneous message lookups without disk scans.
-- **Zero-JSON Binary Protocol:** Custom length-prefixed framing over TCP designed for minimal memory allocations (`allocs/op`).
-- **Thread-Safe Concurrency:** Atomic state management and fine-grained `sync.RWMutex` locking for high-parallelism safety.
-
-### Project Layout
-├── cmd/
-│   └── server/          # Application entrypoint
-├── pkg/
-│   ├── partition/       # Low-level disk log & byte index engine
-│   └── server/          # High-performance TCP binary server
-├── .gitignore
-├── go.mod
-└── README.md
-### Quick Start
-
-```bash
 # Clone the repository
-git clone [https://github.com/your-username/RayoLog.git](https://github.com/your-username/RayoLog.git)
+git clone https://github.com/your-username/RayoLog.git
 cd RayoLog
 
 # Run the broker server
 go run cmd/server/main.go
-🇷🇺 Русский
-Обзор проекта
-RayoLog (Rayo — с испанского Молния) — высокопроизводительный движок потоковой обработки событий (event-streaming), написанный с нуля на Go. Проект отказывается от тяжелой JSON-сериализации и громоздких структур в пользу Append-Only журнала с индексом байтовых смещений в оперативной памяти, обеспечивая сложность $O(1)$ на операции чтения и записи.Архитектура и инженерные особенностиAppend-Only диск-движок: Последовательная бинарная запись, минимизирующая головные расходы файловой системы.Индекс в OPM за $O(1)$: Массив байтовых офсетов для мгновенного точечного чтения сообщений без сканирования файла.Бинарный протокол без JSON: Кастомный кадровый протокол (length-prefixed framing) по TCP для нулевых/минимальных аллокаций памяти (allocs/op).Потокобезопасность: Использование тонких гранул блокировок sync.RWMutex для поддержки параллельных конкурентных запросов.Структура проекта.
-├── cmd/
-│   └── server/          # Точка входа в приложение
-├── pkg/
-│   ├── partition/       # Низкоуровневый движок лога и индекса
-│   └── server/          # Высокопроизводительный TCP-сервер
-├── .gitignore
-├── go.mod
-└── README.md
+<a name="russian"></a>
 
-Быстрый запуск
-Bash# Клонирование репозитория
-git clone [https://github.com/your-username/RayoLog.git](https://github.com/your-username/RayoLog.git)
+🇷🇺 Русский
+<p align="center">
+<img src="https://media.giphy.com/media/3oEjI5VtIhHvK5W2mY/giphy.gif" alt="Bouncing Bunny" width="280" />
+</p>
+
+🧠 Инженерный обзор
+RayoLog (Rayo — с испанского Молния) — высокопроизводительный движок потоковой обработки событий (event-streaming), написанный с нуля на Go. Проект отказывается от тяжелой JSON-сериализации и громоздких структур в пользу Append-Only журнала с индексом байтовых смещений в оперативной памяти, обеспечивая сложность 
+O(1)
+ на операции чтения и записи.
+
+Создано разработчицей, которая любит кроликов и не терпит лишних аллокаций памяти.
+
+⚙️ Архитектура и технические детали
+Append-Only диск-движок: Последовательная бинарная запись, минимизирующая перемещения головок диска и накладные расходы файловой системы.
+Индекс в ОЗУ за 
+O(1)
+: Массив байтовых офсетов для мгновенного точечного чтения сообщений без сканирования файла. Следим за потреблением памяти.
+Бинарный протокол без JSON: Кастомный кадровый протокол (length-prefixed framing) по TCP для нулевых/минимальных аллокаций (allocs/op). Мы не парсим JSON, мы оперируем байтами.
+Потокобезопасность: Атомарное управление состоянием и тонкие гранулы блокировок sync.RWMutex. Высокая параллельность без узких мест на глобальных мьютексах.
+📂 Структура проекта
+Нажми, чтобы развернуть
+🚀 Быстрый запуск
+bash
+
+# Клонирование репозитория
+git clone https://github.com/your-username/RayoLog.git
 cd RayoLog
 
 # Запуск сервера брокера
 go run cmd/server/main.go
+<a name="spanish"></a>
+
+🇪🇸 Español
+<p align="center">
+<img src="https://media.giphy.com/media/26gscDsXKM3qje840/giphy.gif" alt="Sleeping Fluffy Bunny" width="280" />
+</p>
+
+🧠 Descripción de Ingeniería
+RayoLog (Rayo — Relámpago en español) es un motor de streaming de eventos de alto rendimiento construido desde cero en Go. Descarta la pesada serialización JSON y la gestión compleja de colas a favor de una arquitectura de Registro Append-Only con un Índice de Bytes en Memoria, garantizando una complejidad de tiempo 
+O(1)
+ para lectura y escritura.
+
+Creado por una desarrolladora a la que le encantan los conejos y odia las asignaciones de memoria innecesarias.
+
+⚙️ Arquitectura y Detalles Técnicos
+Motor de Disco Append-Only: Escrituras binarias secuenciales que minimizan el movimiento del cabezal del disco y la sobrecarga del sistema de archivos.
+Índice en Memoria 
+O(1)
+: Mapeo de offsets de bytes para búsquedas instantáneas de mensajes sin escanear el disco. Huella de memoria estrictamente controlada.
+Protocolo Binario sin JSON: Encuadre personalizado basado en longitud (length-prefixed framing) sobre TCP, diseñado para minimizar las asignaciones de memoria (allocs/op). No parseamos JSON, enmarcamos bytes.
+Concurrencia Segura para Hilos: Gestión de estado atómico y bloqueos sync.RWMutex de grano fino. Alta seguridad en paralelismo sin cuellos de botella de bloqueo global.
+📂 Estructura del Proyecto
+Haz clic para expandir
+🚀 Inicio Rápido
