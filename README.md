@@ -43,3 +43,29 @@
 ├── .gitignore
 ├── go.mod
 └── README.md
+### Quick Start
+
+```bash
+# Clone the repository
+git clone [https://github.com/your-username/RayoLog.git](https://github.com/your-username/RayoLog.git)
+cd RayoLog
+
+# Run the broker server
+go run cmd/server/main.go
+🇷🇺 РусскийОбзор проектаRayoLog (Rayo — с испанского Молния) — высокопроизводительный движок потоковой обработки событий (event-streaming), написанный с нуля на Go. Проект отказывается от тяжелой JSON-сериализации и громоздких структур в пользу Append-Only журнала с индексом байтовых смещений в оперативной памяти, обеспечивая сложность $O(1)$ на операции чтения и записи.Архитектура и инженерные особенностиAppend-Only диск-движок: Последовательная бинарная запись, минимизирующая головные расходы файловой системы.Индекс в OPM за $O(1)$: Массив байтовых офсетов для мгновенного точечного чтения сообщений без сканирования файла.Бинарный протокол без JSON: Кастомный кадровый протокол (length-prefixed framing) по TCP для нулевых/минимальных аллокаций памяти (allocs/op).Потокобезопасность: Использование тонких гранул блокировок sync.RWMutex для поддержки параллельных конкурентных запросов.Структура проекта.
+├── cmd/
+│   └── server/          # Точка входа в приложение
+├── pkg/
+│   ├── partition/       # Низкоуровневый движок лога и индекса
+│   └── server/          # Высокопроизводительный TCP-сервер
+├── .gitignore
+├── go.mod
+└── README.md
+
+Быстрый запуск
+Bash# Клонирование репозитория
+git clone [https://github.com/your-username/RayoLog.git](https://github.com/your-username/RayoLog.git)
+cd RayoLog
+
+# Запуск сервера брокера
+go run cmd/server/main.go
