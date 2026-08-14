@@ -30,7 +30,7 @@
 ## 🇬🇧 English
 
 <div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z3VmbHRiMDlrdGVxMHNjdDRzbXNneXdtYnFleGxveDVhdXF6c2ZqYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VcDqJibr7niDK/giphy.gif" alt="Adorable Bunny" width="290"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmttanByMmpzd2M3dnR3dnFseWF2cGxsNXEzazlicmFiZ3BpZTBwdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/YqPBdDdjEOlUBURAJS/giphy.gif" alt="Adorable Bunny" width="290"/>
 </div>
 
 ### 📖 Overview
@@ -153,7 +153,7 @@ Issues и Pull Request'ы приветствуются. Если ты ускор
 ## 🇪🇸 Español
 
 <div align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG80MW12cGkwYjQzZTBzdjB6cDc3dXZneHRwcTF4NHJwNnAwdDF4ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XmyF99pGjTQKk/giphy.gif" alt="Conejo sentado" width="240"/>
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG80MW12cGkwYjQzZTBzdjB6cDc3dXZneHRwcTF4NHJwNnAwdDF4ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XmyF99pGjTQKk/giphy.gif" alt="Conejo sentado" width="350"/>
 </div>
 
 ### 📖 Descripción general
