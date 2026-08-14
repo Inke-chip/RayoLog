@@ -22,8 +22,6 @@
 <a href="#-русский"><img src="https://img.shields.io/badge/🇷🇺-Русский-0080FF?style=for-the-badge"/></a>
 <a href="#-español"><img src="https://img.shields.io/badge/🇪🇸-Español-0080FF?style=for-the-badge"/></a>
 
-<sub>GitHub README не выполняет JS — кнопки это якоря, но кликаются как настоящий переключатель.</sub>
-
 </div>
 
 ---
