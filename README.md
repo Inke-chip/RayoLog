@@ -1,4 +1,4 @@
-Cute Fluffy Bunny
+
 RayoLog ⚡🐰
 Ultra-fast, lightweight event-streaming broker written in pure Go.
 Faster than a rabbit on an energy drink. Zero JSON, zero garbage, pure speed.
