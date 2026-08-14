@@ -30,7 +30,7 @@
 ## 🇬🇧 English
 
 <div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmttanByMmpzd2M3dnR3dnFseWF2cGxsNXEzazlicmFiZ3BpZTBwdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/YqPBdDdjEOlUBURAJS/giphy.gif" alt="Adorable Bunny" width="290"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmttanByMmpzd2M3dnR3dnFseWF2cGxsNXEzazlicmFiZ3BpZTBwdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/YqPBdDdjEOlUBURAJS/giphy.gif" alt="Adorable Bunny" width="500"/>
 </div>
 
 ### 📖 Overview
@@ -92,7 +92,7 @@ Distributed under the MIT License. See `LICENSE` for details.
 ## 🇷🇺 Русский
 
 <div align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG80MW12cGkwYjQzZTBzdjB6cDc3dXZneHRwcTF4NHJwNnAwdDF4ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/rnkSmbEKJQ73W/giphy.gif" alt="Кролики" width="240"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGk3Z29uMGJpM3Z1c2tscmNjenBqOTloczNvZW9iMXBqeW9xbnp1YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KHh7jLrG6gIXBTnxsp/giphy.gif" alt="Кролики" width="500"/>
 </div>
 
 ### 📖 Обзор
@@ -153,7 +153,7 @@ Issues и Pull Request'ы приветствуются. Если ты ускор
 ## 🇪🇸 Español
 
 <div align="center">
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG80MW12cGkwYjQzZTBzdjB6cDc3dXZneHRwcTF4NHJwNnAwdDF4ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XmyF99pGjTQKk/giphy.gif" alt="Conejo sentado" width="350"/>
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG80MW12cGkwYjQzZTBzdjB6cDc3dXZneHRwcTF4NHJwNnAwdDF4ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XmyF99pGjTQKk/giphy.gif" alt="Conejo sentado" width="500"/>
 </div>
 
 ### 📖 Descripción general
