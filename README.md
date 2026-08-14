@@ -5,7 +5,7 @@
 **Ultra-fast, lightweight event-streaming broker written in Go.**
 *Faster than a rabbit on an energy drink.*
 
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG80MW12cGkwYjQzZTBzdjB6cDc3dXZneHRwcTF4NHJwNnAwdDF4ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gZx49LyO1CEG7YbcbK/giphy.gif" alt="Dancing Bunny" width="320"/>
+<img <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z3VmbHRiMDlrdGVxMHNjdDRzbXNneXdtYnFleGxveDVhdXF6c2ZqYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Xb6J4XCrn1G08vnyvh/giphy.gif" width="200"/><img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z3VmbHRiMDlrdGVxMHNjdDRzbXNneXdtYnFleGxveDVhdXF6c2ZqYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Xb6J4XCrn1G08vnyvh/giphy.gif" width="200"/><img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z3VmbHRiMDlrdGVxMHNjdDRzbXNneXdtYnFleGxveDVhdXF6c2ZqYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Xb6J4XCrn1G08vnyvh/giphy.gif" width="200"/><img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z3VmbHRiMDlrdGVxMHNjdDRzbXNneXdtYnFleGxveDVhdXF6c2ZqYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Xb6J4XCrn1G08vnyvh/giphy.gif" width="200"/>
 
 <br/><br/>
 
@@ -30,7 +30,7 @@
 ## 🇬🇧 English
 
 <div align="center">
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG80MW12cGkwYjQzZTBzdjB6cDc3dXZneHRwcTF4NHJwNnAwdDF4ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1URktmTTAIflh6VLUL/giphy.gif" alt="Adorable Bunny" width="240"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z3VmbHRiMDlrdGVxMHNjdDRzbXNneXdtYnFleGxveDVhdXF6c2ZqYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VcDqJibr7niDK/giphy.gif" alt="Adorable Bunny" width="240"/>
 </div>
 
 ### 📖 Overview
