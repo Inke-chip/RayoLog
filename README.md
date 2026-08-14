@@ -63,7 +63,7 @@
 ### 🚀 Quick Start
 
 ```bash
-git clone https://github.com/your-username/RayoLog.git
+git clone https://github.com/Inke-chip/RayoLog.git
 cd RayoLog
 go run cmd/server/main.go
 ```
@@ -125,7 +125,7 @@ Distributed under the MIT License. See `LICENSE` for details.
 ### 🚀 Быстрый запуск
 
 ```bash
-git clone https://github.com/your-username/RayoLog.git
+git clone https://github.com/Inke-chip/RayoLog.git
 cd RayoLog
 go run cmd/server/main.go
 ```
@@ -186,7 +186,7 @@ Issues и Pull Request'ы приветствуются. Если ты ускор
 ### 🚀 Inicio rápido
 
 ```bash
-git clone https://github.com/your-username/RayoLog.git
+git clone https://github.com/Inke-chip/RayoLog.git
 cd RayoLog
 go run cmd/server/main.go
 ```
